@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">EXvideo</string>
+    <string name="ip_info">请输入IP地址</string>
+    <string name="port_info">请输入端口号</string>
+    <string name="duration_info">请输入间隔忽略时间</string>
+    <string name="count_info">请输入间隔次数</string>
+    <string name="button_connection">连接</string>
+</resources>

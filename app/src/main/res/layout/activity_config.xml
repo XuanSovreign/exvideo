@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <EditText
+        android:id="@+id/edt_ip"
+        android:layout_width="match_parent"
+        android:hint="@string/ip_info"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:id="@+id/edt_port"
+        android:layout_width="match_parent"
+        android:hint="@string/port_info"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:id="@+id/edt_duration"
+        android:layout_width="match_parent"
+        android:hint="@string/duration_info"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:id="@+id/edt_count"
+        android:layout_width="match_parent"
+        android:hint="@string/count_info"
+        android:layout_height="wrap_content" />
+    <Button
+        android:id="@+id/btv_connection"
+        android:layout_width="wrap_content"
+        android:text="@string/button_connection"
+        android:layout_height="wrap_content" />
+</LinearLayout>
