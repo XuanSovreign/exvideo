@@ -36,6 +36,7 @@ import java.io.OutputStream;
 import java.net.Socket;
 
 /**
+ * 同步播放视频1
  * Created by tang7 on 2018/11/13.
  */
 
@@ -189,6 +190,10 @@ public class DirectVideoActivity extends Activity {
     }
 
 
+    /**
+     * 解析json字符串，同步时间
+     * @param message
+     */
     private void parseStr(String message) {
         try {
             JSONObject jsonObject = new JSONObject(message);
@@ -246,7 +251,6 @@ public class DirectVideoActivity extends Activity {
             Toast.makeText(this, "没有资源", Toast.LENGTH_SHORT).show();
             return;
         }
-
         backThread();
         video.setVideoPath(outPath);
         video.seekTo(0);

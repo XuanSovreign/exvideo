@@ -35,6 +35,8 @@ import java.io.OutputStream;
 import java.net.Socket;
 
 /**
+ *
+ *同步播放视频2
  * Created by tang7 on 2018/11/13.
  */
 
@@ -188,7 +190,10 @@ public class PreDirectVideoActivity extends Activity {
         }
     }
 
-
+    /**
+     * 解析json字符串，同步时间，这个是从半路开始同步播放
+     * @param message
+     */
     private void parseStr(String message) {
         try {
             JSONObject jsonObject = new JSONObject(message);

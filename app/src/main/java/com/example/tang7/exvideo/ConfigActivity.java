@@ -15,6 +15,8 @@ import android.widget.EditText;
 import android.widget.Toast;
 
 /**
+ * 配置文件
+ * IP：port
  * Created by licht on 2018/12/10.
  */
 
